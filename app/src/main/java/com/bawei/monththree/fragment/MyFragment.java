@@ -35,7 +35,7 @@ public class MyFragment extends Fragment implements XListView.IXListViewListener
     private XListView xlv;
     private List<ListData.DataBeanX.DataBean> list;
     private MyAdapter myAdapter;
-
+//获得fragment需要的接口
     public static MyFragment getInstance(String url) {
         MyFragment myFragment = new MyFragment();
         Bundle bundle = new Bundle();
